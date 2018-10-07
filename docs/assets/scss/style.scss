@@ -1,0 +1,21 @@
+/*
+Template Name: Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+
+//(Required file)
+@import 'variable';
+
+// Import Bootstrap source files (Required file)
+@import "bootstrap/bootstrap";
+
+@import "mixins/padding-margin"; 
+
+@import "core/core";
+
+//This is for the responsive (Required file)
+@import 'responsive';
+
+//In This scss you can write your scss
+@import 'custom';

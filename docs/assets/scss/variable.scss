@@ -1,0 +1,156 @@
+/*******************************/
+
+// Custom Variables
+
+/*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+
+
+/*Theme Colors*/
+
+$themecolor: #2962FF;
+$themecolor-dark: #028ee1;
+$themecolor-alt: #26c6da;
+$theme-light:#fff;
+$theme-dark:#212529;
+
+
+/*Shadow*/
+
+$shadow:8px 0px 20px rgba(0,
+0,
+0,
+0.08);
+
+
+/*******************************/
+
+// Bootstrap overrides
+
+/*******************************/
+
+
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+
+//
+// Color system
+//
+$white: #fff !default;
+$gray-100: #f1f6f8 !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #a1aab2 !default;
+$gray-600: #6c757d !default;
+$gray-700: #4F5467 !default;
+$gray-800: #414755 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #137eff !default;
+$indigo: #6610f2 !default;
+$purple: #7460ee !default;
+$pink: #e83e8c !default;
+$red: #f62d51 !default;
+$orange: #fb8c00 !default;
+$yellow: #ffbc34 !default;
+$green: #36bea6 !default;
+$teal: #20c997 !default;
+$cyan: #4fc3f7 !default;
+$primary: #7460ee !default;
+$text-muted: $gray-500 !default;
+
+$colors: ( blue: $blue,
+indigo: $indigo,
+purple: $purple,
+pink: $pink,
+red: $red,
+orange: $orange,
+yellow: $yellow,
+green: $green,
+teal: $teal,
+cyan: $cyan,
+white: $white,
+gray: $gray-600,
+gray-dark: $gray-800);
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $blue !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+$cyan: $cyan !default;
+$orange: $orange !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(( "primary": $primary,
+"secondary": $secondary,
+"success": $success,
+"info": $info,
+"warning": $warning,
+"danger": $danger,
+"light": $light,
+"dark": $dark,
+"cyan": $cyan,
+"orange": $orange,
+"purple": $purple),
+$theme-colors);
+
+// Body
+//
+// Settings for the  element.
+$main-body-bg: #fff!default;
+$body-bg: #fff;
+$body-color: #9098ac !default;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base: 1rem;
+$font-family-sans-serif: 'Rubik',
+sans-serif !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 600 !default;
+
+$h1-font-size: 36px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 18px !default;
+$h5-font-size: 16px !default;
+$h6-font-size: 14px !default;
+
+$headings-margin-bottom: (1rem / 2) !default;
+$headings-font-weight: 400 !default;
+$headings-color: #414755 !default;
+
+//Navbar
+$navbar-padding-x: 0 !default;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-light-color: #9098ac !default;
+
+//Buttons
+$btn-border-radius: 2px !default;
+$btn-border-radius-lg: 2px !default;
+$btn-border-radius-sm: 2px !default; 

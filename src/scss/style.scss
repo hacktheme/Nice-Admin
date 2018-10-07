@@ -1,0 +1,42 @@
+/*
+Template Name: Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+//(Required file)
+@import 'variable';
+
+//Theme colors
+@import 'theme-colors/dark-theme';
+
+// Import Bootstrap source files (Required file)
+@import "bootstrap/bootstrap";
+
+//This is for the components (Required file)
+@import 'components';
+
+//This is for the pages (if you are not using some pages you can remove that style from pages folder)
+@import 'pages';
+
+//This is for the widgets (Required file)
+@import 'widgets/widgets';
+
+//This is for the horizontal version if you are not using horizontal version you can remove this
+@import 'horizontal/horizontal';
+
+//This is for the responsive (Required file)
+@import 'responsive';
+
+//In This scss you can write your scss
+@import 'custom';
+
+//This is for the icons (Required file)
+@import 'icons/font-awesome/css/fontawesome-all.css';
+@import 'icons/simple-line-icons/css/simple-line-icons.css';
+@import 'icons/weather-icons/css/weather-icons.min.css';
+@import 'icons/themify-icons/themify-icons.css';
+@import 'icons/flag-icon-css/flag-icon.min.css';
+@import "icons/material-design-iconic-font/css/materialdesignicons.min.css";
+@import "icons/crypto-icons/cryptocoins.css";

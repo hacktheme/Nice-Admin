@@ -1,0 +1,35 @@
+@import "../../variable";
+
+/*******************
+ sales chart
+*******************/
+.sales{
+    position: relative;
+    height: 270px;
+    -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+    .ct-series-a .ct-area { 
+        fill-opacity:0.1;
+        fill: url(#gradient); 
+    }
+    .ct-series-a .ct-line, .ct-series-a .ct-point{
+        stroke: $info;   
+        stroke-width:3px;  
+    }
+    .ct-series-b .ct-area{
+        fill: #c9d9ea;
+        fill-opacity:0.0;
+
+    }
+    .ct-series-b .ct-line, .ct-series-b .ct-point {
+        stroke: #c9d9ea;
+        stroke-width: 3px; 
+    }
+    .ct-series-a .ct-point, .ct-series-b .ct-point{
+        stroke-width:5px;
+    } 
+    .ct-grid{
+        stroke-width: 0.5px;
+    }
+}
+

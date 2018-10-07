@@ -1,0 +1,211 @@
+// scafholding
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    color: $body-color;
+    background: $main-body-bg;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+a {
+    color: $themecolor;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a.link {
+    color: $body-color;
+    &:hover,
+    &:focus {
+        color: $themecolor;
+    }
+}
+
+.shadow {
+    box-shadow: $shadow!important;
+}
+
+.clear {
+    clear: both;
+}
+
+.spacer {
+    padding: 80px 0;
+}
+
+
+
+
+/*******************
+Opacity
+*******************/
+
+.op-7 {
+    opacity: 0.7;
+}
+
+.op-5 {
+    opacity: 0.5;
+}
+
+.op-3 {
+    opacity: 0.3;
+}
+
+
+
+
+/*******************
+font weight
+*******************/
+
+html body {
+    .font-bold {
+        font-weight: $font-weight-bold;
+    }
+    .font-normal {
+        font-weight: $font-weight-normal;
+    }
+    .font-light {
+        font-weight: $font-weight-light;
+    }
+    .font-medium {
+        font-weight: $font-weight-medium;
+    }
+    .font-16 {
+        font-size: 16px;
+    }
+    .font-12 {
+        font-size: 12px;
+    }
+    .font-14 {
+        font-size: 14px;
+    }
+    .font-10 {
+        font-size: 10px;
+    }
+    .font-18 {
+        font-size: 18px;
+    }
+    .font-20 {
+        font-size: 20px;
+    }
+    .font-22 {
+        font-size: 22px;
+    }
+    .font-24 {
+        font-size: 24px;
+    }
+    .display-5 {
+        font-size: 3rem;
+    }
+    .display-6 {
+        font-size: 2.5rem;
+    }
+    .display-7 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+/*******************
+Background colors
+*******************/
+
+html body {
+    .bg-megna {
+        background-color: $cyan;
+    }
+    .bg-theme {
+        background-color: $themecolor;
+    }
+    .bg-inverse {
+        background-color: $gray-900;
+    }
+    .bg-purple {
+        background-color: $purple;
+    }
+    .bg-light {
+        background-color: $gray-200;
+    }
+    .bg-white {
+        background-color: $white;
+    }
+}
+
+
+
+
+/*******************
+Labels
+*******************/
+
+.label {
+    padding: 3px 10px;
+    line-height: 13px;
+    color: $white;
+    font-weight: 400;
+    border-radius: $border-radius;
+    font-size: 75%;
+}
+
+.label-rounded {
+    border-radius: 60px;
+}
+
+.label-custom {
+    background-color: $cyan;
+}
+
+.label-success {
+    background-color: $success;
+}
+
+.label-info {
+    background-color: $blue;
+}
+
+.label-warning {
+    background-color: $warning;
+}
+
+.label-danger {
+    background-color: $danger;
+}
+
+.label-megna {
+    background-color: $cyan;
+}
+
+.label-primary {
+    background-color: $primary;
+}
+
+.label-purple {
+    background-color: $purple;
+}
+
+.label-red {
+    background-color: $red;
+}
+
+.label-inverse {
+    background-color: $gray-800;
+}
+
+.label-default {
+    background-color: $gray-100;
+}

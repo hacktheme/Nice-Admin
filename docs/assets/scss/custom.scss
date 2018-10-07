@@ -1,0 +1,86 @@
+.btn-custom {
+    padding: 10px 30px;
+    font-size: 16px;
+}
+.btn-custom-md {
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+.btn-custom-lg {
+    padding: 10px 50px;
+    font-size: 16px;
+}
+
+.img-shadow {
+    box-shadow: 16px 20px 30px rgba(103, 119, 157, 0.3);
+}
+
+.topbar {
+    background-image: url(../images/curve.jpg);
+    background-repeat: repeat-x;
+       
+    .header-banner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.live-box {
+    position: relative;
+    .overlay {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        height: 100%;
+        display: none;
+        .live-btn {
+            position: relative;
+            top: 45%;
+            padding: 10px 20px;
+        }
+    }
+    &:hover {
+        .overlay {
+            display: block;
+        }
+    }
+}
+
+.testimonial {
+    position: relative;
+    .underline,
+    .aboveline {
+        display: inline-block;
+        width: 80px;
+        height: 2px;
+        background-color: $gray-300;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .aboveline {
+        top: 0;
+    }
+    .underline {
+        bottom: 0;
+    }
+    .owl-carousel .owl-item img {
+        width: auto;
+        margin: 0 auto;
+    }
+    .quote {
+        line-height: 35px;
+    }
+}
+
+.footer {
+    background-image: url(../images/curve.jpg);
+    background-repeat: repeat-x;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

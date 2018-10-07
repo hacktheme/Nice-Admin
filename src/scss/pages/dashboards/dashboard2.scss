@@ -1,0 +1,63 @@
+
+// Variables;
+
+@import "../../variable";
+
+.sales-ratio {
+    position: relative;
+    height: 212px;
+    -webkit-filter: drop-shadow(0 4px 2px rgba(0, 0, 0, .2));
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, .2));
+    .ct-series-a .ct-area { 
+        fill-opacity:0.1;
+        fill: url(#gradient); 
+    }
+    .ct-series-a .ct-line, .ct-series-a .ct-point{
+        stroke: $info;   
+        stroke-width:3px;  
+    }
+    .ct-series-a .ct-point, .ct-series-b .ct-point{
+        stroke-width:6px;
+    } 
+}
+
+.sales2 {
+    position: relative;
+    height: 212px; 
+    -webkit-filter: drop-shadow(0 8px 4px rgba(0, 0, 0, .2));
+    filter: drop-shadow(0 8px 4px rgba(0, 0, 0, .2));
+    .ct-series-a .ct-area { 
+        fill: none; 
+    }
+    .ct-series-a .ct-line, .ct-series-a .ct-point{
+        stroke: $white;   
+        stroke-width:3px;
+
+    }
+    .ct-grid{
+        display: none;
+    }
+    .ct-chart-bar .ct-label, .ct-chart-line .ct-label{
+        display: none;
+    }
+}
+
+#weather {
+    position: relative;
+    height: 152px;
+    -webkit-filter: drop-shadow(0 8px 4px rgba(0, 0, 0, .2));
+    filter: drop-shadow(0 8px 4px rgba(0, 0, 0, .2));
+    .ct-series-a .ct-area { 
+        fill: none; 
+    }
+    .ct-series-a .ct-line, .ct-series-a .ct-point{
+        stroke: $white;   
+        stroke-width:3px;  
+    }
+    .ct-grid{
+        display: none;
+    }
+    .ct-chart-bar .ct-label, .ct-chart-line .ct-label{
+        display: none;
+    }
+}

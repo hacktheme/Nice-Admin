@@ -1,0 +1,77 @@
+// Variables;
+@import "../../variable";
+.email-app {
+    position: relative;
+    
+    .list-group {
+        .list-group-item {
+            padding: 0px;
+            background: transparent;
+            border: none;
+            .list-group-item-action {
+                padding: 12px 15px;
+                display: block;
+                color: $body-color;
+                .mdi {
+                    font-size: 18px;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                }
+                &:hover,
+                &.active {
+                    background: rgba(0, 0, 0, 0.03);
+                }
+            }
+        }
+    }
+    .email-table {
+        table-layout: fixed;
+        .selected {
+            background: #fff8e1;
+        }
+        
+        .max-texts,
+        .user-name h6 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .max-texts{
+            padding: 1rem 5px;
+        }
+        .chb {
+            width: 50px;
+        }
+        .time {
+            width: 100px;
+            text-align: right;
+        }
+        .starred,
+        .clip {
+            width:25px;
+            padding: 1rem 5px;
+        }
+        .user-image {
+            width: 45px;
+            padding: 1rem 5px;
+        }
+        .user-name {
+            width: 130px;
+            padding: 1rem 5px;
+            .m-b-0{font-weight: $font-weight-light;}
+        }
+        .unread {
+            .m-b-0,
+            .max-texts {
+                font-weight: $font-weight-medium;
+            }
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .email-table {
+        min-width: 500px;
+    }
+    
+}
