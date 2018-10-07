@@ -26,7 +26,7 @@
     "dependencies": {
         "@claviska/jquery-minicolors": "^2.2.6",
         "block-ui": "^2.70.1",
-        "bootstrap": "^4.1.0",
+        "bootstrap": "^4.1.2",
         "bootstrap-colorpicker": "^2.5.2",
         "bootstrap-datepicker": "^1.8.0",
         "bootstrap-duallistbox": "^3.0.6",
